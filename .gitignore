@@ -1,0 +1,10 @@
+dist/
+.project
+.settings/
+.vscode/
+node_modules/
+package-oct.json
+srs/assets/**/*.css
+src/assets/**/*.css.map
+coverage/
+.DS_Store
