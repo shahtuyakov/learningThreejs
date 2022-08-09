@@ -1,1 +1,1 @@
-# learningThreejs
+Learning Threejs step by step. 
