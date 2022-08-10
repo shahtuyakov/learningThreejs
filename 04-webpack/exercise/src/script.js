@@ -10,6 +10,7 @@ const material = new THREE.MeshBasicMaterial({color: 'red'});
 const mesh = new THREE.Mesh(cube, material);
 scene.add(mesh);
 
+
 // sizes
 const sizes = {
     width: 900,
