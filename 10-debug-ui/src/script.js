@@ -14,6 +14,7 @@ const gui = new lil.GUI()
 
 // Color parameter
 
+
 const parameter = {
     color: '#ff0000',
     spin: () => {
