@@ -37,7 +37,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new TextGeometry(
-            'Hello Laylo',
+            'Good Morning Open Lending',
             {
                 font: font,
                 size: 0.5,
