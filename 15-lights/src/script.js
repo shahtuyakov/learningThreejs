@@ -117,6 +117,9 @@ torus.position.x = 1.5
 
 
 
+
+
+
 const plane = new THREE.Mesh(
     new THREE.PlaneGeometry(5, 5),
     material
