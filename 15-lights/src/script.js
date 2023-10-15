@@ -176,6 +176,9 @@ const tick = () =>
 {
     const elapsedTime = clock.getElapsedTime()
 
+
+
+    
     // Update objects
     sphere.rotation.y = 0.1 * elapsedTime
     cube.rotation.y = 0.1 * elapsedTime
