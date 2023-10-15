@@ -77,8 +77,6 @@ scene.add(rectAreaLightHelper)
 
 
 
-
-
 /**
  * Objects
  */
