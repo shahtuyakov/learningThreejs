@@ -4,9 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'lil-gui'
 import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper.js'
 
-/**
- * Base
- */
+
 // Debug
 const gui = new dat.GUI()
 
@@ -16,8 +14,14 @@ const canvas = document.querySelector('canvas.webgl')
 // Scene
 const scene = new THREE.Scene()
 
+
+
+
+
+
+
 /**
- * Lights
+ * Lights     
  */
 // const ambientLight = new THREE.AmbientLight(0xffffff, 0.5)
 // scene.add(ambientLight)
@@ -55,6 +59,7 @@ spotLight.target.position.x = -0.75
 scene.add(spotLight.target)
 
 
+
 // Helper
 const hemisphereLightHelper = new THREE.HemisphereLightHelper(hemisphereLight, 0.2)
 scene.add(hemisphereLightHelper)
@@ -77,8 +82,6 @@ scene.add(rectAreaLightHelper)
 
 
 
-
-
 /**
  * Objects
  */
@@ -98,11 +101,21 @@ const cube = new THREE.Mesh(
     material
 )
 
+
+
+
 const torus = new THREE.Mesh(
     new THREE.TorusGeometry(0.3, 0.2, 32, 64),
     material
 )
 torus.position.x = 1.5
+
+
+
+
+
+
+
 
 const plane = new THREE.Mesh(
     new THREE.PlaneGeometry(5, 5),
@@ -131,6 +144,9 @@ window.addEventListener('resize', () =>
     camera.aspect = sizes.width / sizes.height
     camera.updateProjectionMatrix()
 
+
+
+    
     // Update renderer
     renderer.setSize(sizes.width, sizes.height)
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
@@ -168,6 +184,9 @@ const tick = () =>
 {
     const elapsedTime = clock.getElapsedTime()
 
+
+
+    
     // Update objects
     sphere.rotation.y = 0.1 * elapsedTime
     cube.rotation.y = 0.1 * elapsedTime
