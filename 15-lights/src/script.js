@@ -7,6 +7,10 @@ import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHel
 /**
  * Base
  */
+
+
+
+
 // Debug
 const gui = new dat.GUI()
 
