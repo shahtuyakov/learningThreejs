@@ -5,8 +5,6 @@ import * as dat from 'lil-gui'
 import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper.js'
 
 
-
-
 // Debug
 const gui = new dat.GUI()
 
