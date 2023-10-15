@@ -62,6 +62,8 @@ scene.add(spotLight.target)
 
 
 
+
+
 // Helper
 const hemisphereLightHelper = new THREE.HemisphereLightHelper(hemisphereLight, 0.2)
 scene.add(hemisphereLightHelper)
