@@ -104,6 +104,9 @@ const cube = new THREE.Mesh(
     material
 )
 
+
+
+
 const torus = new THREE.Mesh(
     new THREE.TorusGeometry(0.3, 0.2, 32, 64),
     material
