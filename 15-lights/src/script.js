@@ -17,7 +17,6 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 
-
 /**
  * Lights
  */
